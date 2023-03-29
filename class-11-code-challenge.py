@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+# Script: Ops 301d6 Class 11 Ops Challenge Solution
+# Author: Nicholas Loiacono
+# Date: 03/27/2023
+# Purpose: Psutil
+# Resources: Chat GPT
+
+
+# Start
+
 import psutil
 
 # Get system CPU times
@@ -33,3 +42,5 @@ print(f"Time spent by other operating systems running in a virtualized environme
 
 # Print time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
 print(f"Time spent running a virtual CPU for guest operating systems: {cpu_times.guest:.2f} seconds")
+
+# End
